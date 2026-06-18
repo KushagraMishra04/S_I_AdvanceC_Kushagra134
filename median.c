@@ -30,7 +30,7 @@ int main()
     //median
     if(total % 2 ==0)
     {
-    median=(c[total / 2 - 1] + c[total / 2]) / 2.0;
+    median=(c[total / 2 - 1] + c[total / 2]) / 2;
     }
     else{
         median=c[total/2];
