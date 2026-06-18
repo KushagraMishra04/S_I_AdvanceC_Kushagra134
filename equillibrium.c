@@ -17,15 +17,15 @@ int main()
             sumL += a[j];
         }
 
-        for(k = i + 1; k < n-1; k++)
+        for(k = i + 1; k < n; k++)
         {
             sumR += a[k];
         }
 
         if(sumL == sumR)
         {
-            eqi = -1;
-            printf("We found the equilibrium index %d and element = %d\n", i, eqi);
+            eqi = i;
+            printf("We found the equilibrium index %d and element = %d\n", eqi, a[eqi]);
             break;
         }
     }
