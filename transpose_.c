@@ -26,7 +26,7 @@ int main()
     {
         for (j = 0; j < 3; j++)
         {
-            printf("%3d ", a[i][j]);
+            printf("%d ", a[i][j]);
         }
         printf("\n");
     }
@@ -36,7 +36,7 @@ int main()
     {
         for (j = 0; j < 5; j++)
         {
-            printf("%3d ", t[i][j]);
+            printf("%d ", t[i][j]);
         }
         printf("\n");
     }
