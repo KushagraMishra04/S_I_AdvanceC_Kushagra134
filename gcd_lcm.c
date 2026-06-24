@@ -15,7 +15,7 @@ int main()
 
     lcm = (a * b) / gcd;
 
-    printf("GCD = %d\n", gcd);
+    printf("GCD/HCF = %d\n", gcd);
     printf("LCM = %d", lcm);
 
     return 0;
